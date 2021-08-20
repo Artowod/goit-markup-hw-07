@@ -17,7 +17,7 @@
 .comment-label {
   font-size: 12px;
   line-height: 1.17;
-  color: #757575;
+  color: var(--fill-normal);
 }
 
 .modal-name-input,
@@ -81,7 +81,7 @@
   align-items: center;
   font-size: 14px;
   line-height: 1.72;
-  color: #757575;
+  color: var(--fill-normal);
 
   &::before {
     display: block;
@@ -89,7 +89,7 @@
     margin-right: 9px;
     width: 16px;
     height: 15px;
-    border: 2px solid #212121;
+    border: 2px solid var(--border-color);
     border-radius: 2px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@
   font-size: 14px;
   line-height: 1.72;
   text-decoration: underline;
-  color: #188ce8;
+  color: var(--agreement-link);
 }
 
 .modal-form-wrapper {
