@@ -3,9 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>Портфолио</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/modern-normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="page-header">
@@ -23,7 +27,7 @@
         <ul class="contacts-list-header">
           <li class="contacts-header-element contacts-header-icon-mail">
             <a class="email-link" href="mailto:info@devstudio.com">
-              <svg class="icon icon-envelope-header" width="16px" height="12px">
+              <svg class="icon icon-envelope" width="16px" height="12px">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
@@ -31,7 +35,7 @@
           </li>
           <li class="contacts-header-element">
             <a class="mob-link" href="tel:+380961111111">
-              <svg class="icon icon-mob-header" width="10px" height="16px">
+              <svg class="icon icon-mob" width="10px" height="16px">
                 <use href="./images/icons.svg#icon-mob"></use>
               </svg>
               <p>+38 096 111 11 11</p>
@@ -222,12 +226,12 @@
           <a class="logo" href="">Web<span class="logo-white">Studio</span></a>
           <address class="page-contacts">
             <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="page-contacts-list">
-              <li class="page-contacts-element">
-                <a class="contacts-footer" href="mailto:info@example.com">info@example.com</a>
+            <ul class="footer-contacts-list">
+              <li class="footer-contacts-element">
+                <a class="footer-contacts-link" href="mailto:info@example.com">info@example.com</a>
               </li>
-              <li class="page-contacts-element">
-                <a class="contacts-footer" href="tel:+380991111111">+38 099 111 11 11</a>
+              <li class="footer-contacts-element">
+                <a class="footer-contacts-link" href="tel:+380991111111">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -265,18 +269,18 @@
             </li>
           </ul>
         </div>
-        <div class="distribution-block-footer">
-          <p class="distribution-block-title">Подпишитесь на рассылку</p>
-          <form class="distribution-form" name="distribution-form">
+        <div class="sending-block-footer">
+          <p class="sending-block-title">Подпишитесь на рассылку</p>
+          <form class="sending-form" name="sending-form">
             <input
               type="email"
-              name="distribution-form-email"
-              class="distribution-form-email"
+              name="sending-form-email"
+              class="sending-form-email"
               title="Введите ваш почтовый
             адрес"
               placeholder="E-mail"
             />
-            <button type="submit" class="distribution-sign-in-btn" name="distribution-sign-in">
+            <button type="submit" class="sending-sign-in-btn" name="sending-sign-in">
               Подписаться
               <svg class="email-send-icon" width="24px" height="24px">
                 <use href="./images/icons.svg#icon-send"></use>
