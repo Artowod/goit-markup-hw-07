@@ -1,32 +1,28 @@
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
-
-  .feature-title {
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.15;
-    margin-bottom: 10px;
-  }
-
-  .feature-descr {
-    color: var(--fontcolor-projects-type);
-    font-size: 14px;
-    line-height: 1.72;
-  }
 }
 
-.features-section-title {
-  display: none;
+.features__feature-title {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.15;
+  margin-bottom: 10px;
 }
 
-.features-list {
+.features__feature-descr {
+  color: var(--fontcolor-projects-type);
+  font-size: 14px;
+  line-height: 1.72;
+}
+
+.features__list {
   display: flex;
   margin: 0 auto;
 }
 
-.feature-element {
+.features__feature-element {
   width: 270px;
   margin-right: 30px;
 

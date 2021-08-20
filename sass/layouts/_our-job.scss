@@ -1,20 +1,20 @@
 .our-job {
   padding-bottom: 94px;
-
-  .our-job-title {
-    font-size: 36px;
-    line-height: 1.67;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 50px;
-  }
 }
 
-.our-job-list {
+.our-job__title {
+  font-size: 36px;
+  line-height: 1.67;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.our-job__list {
   display: flex;
 }
 
-.our-job-element {
+.our-job__element {
   position: relative;
   margin-right: 30px;
 
@@ -23,7 +23,7 @@
   }
 }
 
-.our-job-element-descr {
+.our-job__element-descr {
   position: absolute;
   display: flex;
   width: 100%;
